@@ -1,5 +1,5 @@
 # USPS-Object-Detection
-* Yolo4 model trained with Darknet that detects the USPS logo in images. 
+* Yolo4 model trained with Darknet that detects the USPS logo in images and alerts you through email.
 * Keep in mind, this is not the strongest model as it was trained with no validation however it works very well with only 2000 iterations.
 
 # Requirements
