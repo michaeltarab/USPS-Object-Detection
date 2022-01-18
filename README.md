@@ -3,8 +3,8 @@
 * Keep in mind, this is not the strongest model as it was trained with no validation however it works very well with only 2000 iterations.
 
 # Requirements
-* The only requirement is that you have darknet (From AlexeyAB) compiled
-* Refer to darknet's repository for recommended specs.
+* Have darknet (From AlexeyAB) compiled with OPENCV and LIBSO enabled in Makefile
+* If using python code, see required modules
 # How to use:
 * Make sure you have downloaded the [files](https://drive.google.com/drive/folders/1e1wAt8KT7OssTvF09YhJNGCRS4mwyoXu?usp=sharing): yolo-obj_final.weights, yolo-obj.cfg, obj.data, obj.names
 * Make sure OpenCV knows where your own files are (weights,cfg,data) 
