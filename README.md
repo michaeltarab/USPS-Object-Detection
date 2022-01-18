@@ -8,10 +8,7 @@
 
 # How to use:
 * Make sure you have downloaded the [files](https://drive.google.com/drive/folders/1e1wAt8KT7OssTvF09YhJNGCRS4mwyoXu?usp=sharing): yolo-obj_final.weights, yolo-obj.cfg, obj.data, obj.names
-* Put them in their corresponding locations
-  * Put obj.data in darknet/build/darknet/x64/data
-  * Put yolo-obj_final.weights in darknet/backup (OR Wherever you want the weights file located, mine is located in a folder I made called backup)
-  * Put obj.data in darknet/build/darknet/x64/data
+* Make sure OpenCV knows where your own files are (weights,cfg,data) 
   * In obj.data, make sure you have renamed the path of the obj.names to the correct path on your system.
 
 
